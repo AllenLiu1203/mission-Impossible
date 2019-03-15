@@ -1,26 +1,19 @@
 //
 //  main.cpp
-//  homework2
+//  homework1
 //
 //  Created by 劉世翔 on 2019/3/15.
 //  Copyright © 2019年 劉世翔. All rights reserved.
 //
 
-#include <iostream>
-
-using namespace std;
-
-int main (int argc,char** argv)
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
 {
-    int key,a,b;
-    cout <<"請輸入你的出生年月日"<<endl;
-    cout<<"年份為";
-    cin>>key;
-    cout<<"月份為";
-    cin>>a;
-    cout<<"日期為";
-    cin>>b;
-    cout<<"輸入出生年月日："<<key<<"年"<<a<<"月"<<b<<"日";
-    system("PAUSE");
+    printf("Hello C!\n");
+    printf("Hello World\n");
+    printf("3A713242\n");
+    system("pause");
     return 0;
+    
 }
